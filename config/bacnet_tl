@@ -1,0 +1,14 @@
+config tl 'default'
+	option description 'Analog Value'
+	option nc '1'
+	option interval '300'
+	option device_type 8
+	option object_type 2
+
+
+config tl '0'
+	option object_instance '0'
+	option interval '10'
+
+config tl '1'
+	option object_instance '1'
